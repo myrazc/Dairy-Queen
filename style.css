@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: #fb8b24ff;
+  color:#0f4c5cff;
+  font-family: Academy Engraved LET;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #5f0f40ff;
+}
+
+
+nav a {
+  color:#e36414ff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+
+
+
+.hero {
+  background-color: #fb8b24ff;
+  color: #0f4c5cff;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.menu-button {
+  background-color: #5f0f40ff;
+  color: #e36414ff;
+  padding:12px  24px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.menu-title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.menu-cards {
+  display: flex;
+  gap: 20px;
+  padding: 0 40px 40px;
+}
+
+.food-card {
+  flex: 1;
+  position: relative;
+  background-color: #5f0f40ff;
+  color: #e36414ff;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.food-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px #0f4c5cff;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color:#0f4c5cff;
+  color: #fb8b24ff;
+  padding: 6px 12px;
+  border-radius: 0 12px 0 12px;
+}
+
+.food-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-card img {
+    width: 120px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.page-content {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.page-content h1 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.page-content p {
+  line-height: 1.6;
+}
+
+.info-box {
+  background-color: #5f0f40ff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 30px;
+  color: #e36414ff;
+}
+
+.info-box h2 {
+  margin-top: 0;
+}
+
+.info-box .menu-button {
+  display: inline-block;
+  background-color: #fb8b24ff;
+  margin-top: 12px;
+  color:#0f4c5cff ;
+}
+
+.project-note {
+  font-size: 12px;
+}
